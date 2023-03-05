@@ -1,0 +1,15 @@
+name: "⚡️ Feature request"
+description: Create a new ticket for a feature request.
+title: "⚡️ [FTR] - <title>"
+labels: [
+  "enhancement"
+]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: Please enter an explicit description of your feature
+      placeholder: Short and explicit description of your feature...
+    validations:
+      required: true
