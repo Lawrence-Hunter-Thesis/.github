@@ -1,0 +1,15 @@
+name: "🧠 To do"
+description: Create a new ticket for a feature request.
+title: "🧠 [TODO] - <title>"
+labels: [
+  "todo"
+]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: Please enter an explicit description of the task
+      placeholder: Short and explicit description of the task...
+    validations:
+      required: true
